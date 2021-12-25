@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="hash">
+      <UniqueIdentifier>{74eb9e65-5e08-446a-a0bd-ba1a559ac4e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="injection">
+      <UniqueIdentifier>{1c2432db-0a46-4f5c-9c0b-6f0a46961475}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{65b3217d-9548-4daa-b433-17384907ed9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="communication">
+      <UniqueIdentifier>{88582551-1756-44e6-9dbe-e6e2556855cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{3249bb9d-decb-4342-85af-e589a1b08ad7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\detail">
+      <UniqueIdentifier>{2f7643c6-b5af-4e7f-b7fb-2397cf8f2c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\detail\conversions">
+      <UniqueIdentifier>{06a03207-1b5a-45c1-b807-dd3158494c64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\detail\input">
+      <UniqueIdentifier>{b7f92f7d-415c-4eec-8561-542e25fa8ead}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\detail\iterators">
+      <UniqueIdentifier>{7422c027-aa0b-4588-94de-4abaedcfd20b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\detail\meta">
+      <UniqueIdentifier>{34e7aa73-721d-46f2-b41b-e3fbaf6ebad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json\detail\output">
+      <UniqueIdentifier>{14a2a128-9e20-4138-8d5a-a56e16ab81e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="console">
+      <UniqueIdentifier>{942e640f-c9d9-4c41-9886-0a65a2cd65bf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hash.hpp">
+      <Filter>hash</Filter>
+    </ClInclude>
+    <ClInclude Include="shared.hpp" />
+    <ClInclude Include="injection.hpp">
+      <Filter>injection</Filter>
+    </ClInclude>
+    <ClInclude Include="security.hpp">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="machine_hash.hpp">
+      <Filter>hash</Filter>
+    </ClInclude>
+    <ClInclude Include="communication.hpp">
+      <Filter>communication</Filter>
+    </ClInclude>
+    <ClInclude Include="json\adl_serializer.hpp">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.hpp">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json_fwd.hpp">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\exceptions.hpp">
+      <Filter>json\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\json_pointer.hpp">
+      <Filter>json\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\json_ref.hpp">
+      <Filter>json\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\macro_scope.hpp">
+      <Filter>json\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\macro_unscope.hpp">
+      <Filter>json\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\value_t.hpp">
+      <Filter>json\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\conversions\from_json.hpp">
+      <Filter>json\detail\conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\conversions\to_chars.hpp">
+      <Filter>json\detail\conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\conversions\to_json.hpp">
+      <Filter>json\detail\conversions</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\input\binary_reader.hpp">
+      <Filter>json\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\input\input_adapters.hpp">
+      <Filter>json\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\input\json_sax.hpp">
+      <Filter>json\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\input\lexer.hpp">
+      <Filter>json\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\input\parser.hpp">
+      <Filter>json\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\input\position_t.hpp">
+      <Filter>json\detail\input</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\iterators\internal_iterator.hpp">
+      <Filter>json\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\iterators\iter_impl.hpp">
+      <Filter>json\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\iterators\iteration_proxy.hpp">
+      <Filter>json\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\iterators\iterator_traits.hpp">
+      <Filter>json\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\iterators\json_reverse_iterator.hpp">
+      <Filter>json\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\iterators\primitive_iterator.hpp">
+      <Filter>json\detail\iterators</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\meta\cpp_future.hpp">
+      <Filter>json\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\meta\detected.hpp">
+      <Filter>json\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\meta\is_sax.hpp">
+      <Filter>json\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\meta\type_traits.hpp">
+      <Filter>json\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\meta\void_t.hpp">
+      <Filter>json\detail\meta</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\output\binary_writer.hpp">
+      <Filter>json\detail\output</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\output\output_adapters.hpp">
+      <Filter>json\detail\output</Filter>
+    </ClInclude>
+    <ClInclude Include="json\detail\output\serializer.hpp">
+      <Filter>json\detail\output</Filter>
+    </ClInclude>
+    <ClInclude Include="console.hpp">
+      <Filter>console</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cb98af48-2a79-4595-9499-be1196c5e1c4": {
+      "ProjectGuid": "cb98af48-2a79-4595-9499-be1196c5e1c4",
+      "DisplayName": "loader - main",
+      "ColorIndex": 0
+    },
+    "07210249-4588-42be-b101-5bc11822f7d1": {
+      "ProjectGuid": "07210249-4588-42be-b101-5bc11822f7d1",
+      "DisplayName": "shared",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
