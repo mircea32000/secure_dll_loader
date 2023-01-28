@@ -1,8 +1,8 @@
 <?php
 $login_logic = function()
 {
-    $link = mysqli_connect("localhost", "id15705445_qjaws", "=(h{g}[#!%Su0DdT");
-    $database = mysqli_select_db($link, "id15705445_qjawshook");
+    $link = mysqli_connect("localhost", "USERNAME", "PASSDB");
+    $database = mysqli_select_db($link, "USERNAMEDB");
     $user = '';
     $password = '';
     $plain_pass = '';
