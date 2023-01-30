@@ -7,7 +7,6 @@ you'll need to make the loader in a dll form, the main exe file downloads the dl
 
 ## features
 - ssl communication
-- debug console
 - compile-time and run-time string encryption
 - injection library
-- json
+- byte streaming
